@@ -1,0 +1,49 @@
+body {
+    font-family: Optima;
+  }
+  
+  h1 {
+    color: #D64727;
+    font-family: Optima;
+    font-size: 127%;
+  }
+  
+  .title {
+    margin-right: 200px;
+  }
+  
+  h2 {
+    color: #F2A73D;
+    font-family: Optima;
+    font-size: 121%;
+  }
+  
+  h3 {
+    font-size: 109%;
+    font-family: Optima;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 100%;
+    font-family: Optima;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.dataTables_filter {
+    float: left !important; 
+}
+
+.dataTables_length {
+  float: right !important;
+}
+
+.ggplotly .figure{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-shadow:none;
+}
+   
+  
