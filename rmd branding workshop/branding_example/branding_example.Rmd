@@ -36,7 +36,7 @@ library(ggthemes)
 library(plotly)
 library(dplyr)
 
-census_api_key("d93b728f9859892dc6b00d7795157654e64d3fca")
+census_api_key("<put yours here>")
 us_pop <- get_estimates(geography = "county", product = "population", geometry = TRUE, shift_geo=TRUE)  %>% 
     filter(variable=="POP") %>%
     mutate(NAME=gsub("\\s+[^,\\s]+,\\s+\\w+$","",NAME)) %>%
